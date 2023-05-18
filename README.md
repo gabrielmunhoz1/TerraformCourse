@@ -1,0 +1,1 @@
+# Studying to Terraform Associate exam

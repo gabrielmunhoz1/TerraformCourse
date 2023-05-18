@@ -9,3 +9,10 @@ variable "ec2_type" {
 variable "ec2_ami" {
     default = "ami-007855ac798b5175e"
 }
+
+variable "tags" {
+  type = map(any)
+  default = {
+    environment = prod
+  }  
+}
